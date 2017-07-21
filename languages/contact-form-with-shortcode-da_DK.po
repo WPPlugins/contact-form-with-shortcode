@@ -1,0 +1,56 @@
+msgid "Contact form widget"
+msgstr "Kontaktformular widget"
+
+msgid "Contact Form Fields"
+msgstr "Kontakt formularfelter"
+
+msgid "Mail Body"
+msgstr "Mail Krop"
+
+msgid "From Settings"
+msgstr "Fra Indstillinger"
+
+msgid "Security Settings"
+msgstr "Sikkerhedsindstillinger"
+
+msgid "Mail to Admin"
+msgstr "Mail til Admin"
+
+msgid "Attachments will be automatically attached."
+msgstr ""
+
+msgid "Mail to User"
+msgstr "Mail til Bruger"
+
+msgid "Subject"
+msgstr "Emne"
+
+msgid "To"
+msgstr "Til"
+
+msgid "From Name"
+msgstr "Fra Navn"
+
+msgid "From Mail"
+msgstr "Fra Mail"
+
+msgid "Reply To Field"
+msgstr "Svar til Field"
+
+msgid "Enable Captcha Security Code"
+msgstr "Aktiver Captcha sikkerhedskode"
+
+msgid "Security code do not match!"
+msgstr "Sikkerhedskode passer ikke !"
+
+msgid "File not uploaded."
+msgstr "Fil ikke uploadet ."
+
+msgid "Mail sent successfully."
+msgstr "Mail sendt."
+
+msgid "Mail not sent. Please try again later."
+msgstr "Send ikke sendt . Prøv igen senere."
+
+msgid "Submit"
+msgstr "Indsende"

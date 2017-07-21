@@ -1,0 +1,166 @@
+.cont_error {
+    color: #F4484A;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: 500;
+	width:96%;
+	float:left;
+	border:1px solid #F4484A;
+	background-color:#fff;
+	padding:6px;
+	margin-bottom:5px;
+	border-radius:5px;
+}
+
+.cont_success {
+    color: #336600;  
+    float: left;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: 500;
+    width: 96%;
+	background-color:#fff;
+	padding:6px;
+	border:1px solid #336600;
+	margin-bottom:5px;
+	border-radius:5px;
+}
+
+
+.field_form_table td{
+padding:8px;
+}
+
+
+.field-desc{
+clear: both;
+width: 100%;
+float: left;
+font-style:italic;
+}
+
+.captcha{
+	border:1px solid #ccc;
+	margin:0px 10px 10px 0px;
+}
+
+.cont_forms{
+margin:1%;
+}  
+
+
+/* Makes cont_forms fields.Sets size and field alignment.*/
+.cont_forms input[type=text],
+.cont_forms input[type=email],
+.cont_forms input[type=password],
+.cont_forms input[type=url],
+.cont_forms input[type=tel]
+ {
+  width:90%;
+  padding: 15px;
+ /* border-radius:5px;*/
+  border:1px solid #CCCCCC;
+}
+.cont_forms textarea{
+	width:100%;
+    border:1px solid #CCCCCC;
+	/*border-radius:5px */
+  }
+
+.form-group label{
+	font-size:18px;
+}
+
+.cont_forms input[type=text]:focus,
+.cont_forms input[type=email]:focus,
+.cont_forms input[type=password]:focus,
+.cont_forms input[type=url]:focus,
+.cont_forms input[type=tel]:focus,
+.cont_forms textarea:focus {
+  border-color: #999999; 
+}
+
+.cont_forms label{
+margin-left:0;
+}
+
+/* Sets form button size*/
+.cont_forms input[type=submit]{
+width: auto;
+/*border-radius:5px;*/
+margin-right:1%
+}
+
+/* By using @ media form can have different layout for screen, mobile phone, tablet.*/
+
+/* Sets the form layout for mobile phone, tablet*/
+@media screen and (max-device-width: 600px) {
+
+/* Makes cont_forms fields.Sets size and field alignment.*/
+.cont_forms input[type=text],
+.cont_forms input[type=email],
+.cont_forms input[type=password],
+.cont_forms input[type=url],
+.cont_forms input[type=tel]
+ {
+width:100%;
+  padding: 15px;
+  /*border-radius:5px;*/
+  border:1px solid #7ac9b7;
+}
+.cont_forms textarea{
+	width:100%;
+    border:1px solid #7ac9b7;
+	/*border-radius:5px */
+  }
+
+
+.cont_forms div{
+  padding:10px 0;
+}
+ 
+.cont_forms input[type=text]:focus,
+.cont_forms input[type=email]:focus,
+.cont_forms input[type=password]:focus,
+.cont_forms input[type=url]:focus,
+.cont_forms input[type=tel]:focus,
+.cont_forms textarea:focus {
+
+  border-color: #4697e4;
+}
+.cont_forms label{
+margin-left:0;
+}
+
+
+.cont_forms input[type=submit]{
+width:160px;
+padding:20px 2px;
+/*border-radius:5px;*/
+border:2px solid  #4697e4;
+margin-right:10%
+}
+}
+
+/* tabs */
+.ap-tab-content{
+	padding:10px;
+}
+.ap-active{
+	background-color: #FFFFFF !important;
+    border-bottom: 1px solid #0073AA !important;
+}
+.ap-tabs{
+	width:100%;
+	border-bottom:1px solid #cccccc;
+}
+.ap-tab{
+	width:100px;
+	text-align:center;
+	display:inline-block;
+	padding:10px;
+	border:1px solid #F1F1F1;
+	background-color:#F1F1F1;
+	border-bottom:1px solid #F1F1F1;
+	cursor:pointer;
+	margin:2px 0px 0px 0px;
+}
+/* tabs */
